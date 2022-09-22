@@ -17,6 +17,10 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel1" min="-2" pref="811" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
@@ -59,25 +63,20 @@
                       <Component id="v_firstname_TextField1" linkSize="1" min="-2" pref="107" max="-2" attributes="0"/>
                   </Group>
               </Group>
+              <EmptySpace min="66" pref="66" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel21" linkSize="3" min="-2" pref="87" max="-2" attributes="0"/>
-                          <Component id="jLabel24" linkSize="3" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel23" linkSize="3" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel22" linkSize="3" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel25" linkSize="3" alignment="1" min="-2" pref="93" max="-2" attributes="0"/>
-                      </Group>
+                  <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                      <Component id="jLabel21" linkSize="3" min="-2" pref="87" max="-2" attributes="0"/>
+                      <Component id="jLabel24" linkSize="3" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel23" linkSize="3" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel22" linkSize="3" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel25" linkSize="3" alignment="1" min="-2" pref="93" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="jLabel18" linkSize="3" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel15" linkSize="3" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
-                          <Component id="jLabel17" linkSize="3" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="jLabel16" linkSize="3" alignment="1" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                  <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                      <Component id="jLabel18" linkSize="3" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel15" linkSize="3" alignment="1" min="-2" pref="79" max="-2" attributes="0"/>
+                      <Component id="jLabel17" linkSize="3" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel16" linkSize="3" alignment="1" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -92,16 +91,17 @@
                   <Component id="v_d1s" linkSize="3" alignment="0" min="-2" pref="93" max="-2" attributes="0"/>
                   <Component id="v_d1e" linkSize="3" alignment="0" min="-2" pref="93" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jLabel12" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
-                  <Component id="jLabel6" alignment="0" min="-2" pref="245" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      <Component id="v_photo" min="-2" pref="207" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="138" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace pref="34" max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <Component id="jLabel1" min="-2" pref="811" max="-2" attributes="0"/>
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -159,7 +159,7 @@
                   <Group type="103" alignment="0" groupAlignment="1" attributes="0">
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
+                              <Group type="102" attributes="0">
                                   <Component id="v_aff" linkSize="4" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="v_major" linkSize="4" min="-2" max="-2" attributes="0"/>
@@ -169,16 +169,21 @@
                                   <Component id="v_d1" linkSize="4" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="v_d1s" linkSize="4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
                                   <Component id="v_d1e" linkSize="4" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="v_d2" linkSize="4" min="-2" pref="26" max="-2" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
+                              <Group type="102" attributes="0">
                                   <EmptySpace min="220" pref="220" max="-2" attributes="0"/>
                                   <Component id="v_d2s" linkSize="4" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="v_d2e" linkSize="4" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="v_d2e" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
+                              <Component id="v_photo" alignment="0" min="-2" pref="223" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                       </Group>
@@ -215,13 +220,6 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="v_country" linkSize="2" min="-2" max="-2" attributes="0"/>
                               </Group>
-                          </Group>
-                      </Group>
-                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                          <Component id="jLabel12" alignment="0" max="-2" attributes="0"/>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
-                              <Component id="jLabel6" min="-2" pref="259" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -416,21 +414,14 @@
         <Property name="text" type="java.lang.String" value="Degree 2 End "/>
       </Properties>
     </Component>
+    <Component class="javax.swing.JLabel" name="v_photo">
+      <Events>
+        <EventHandler event="ancestorAdded" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="v_photoAncestorAdded"/>
+      </Events>
+    </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
-        <Property name="horizontalAlignment" type="int" value="0"/>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="/Users/judy/Desktop/&#x622a;&#x5c4f;2022-09-19 &#x4e0b;&#x5348;5.11.14.png"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="jLabel6"/>
-        <Property name="autoscrolls" type="boolean" value="true"/>
-        <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel12">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="photo"/>
-        <Property name="toolTipText" type="java.lang.String" value=""/>
+        <Property name="text" type="java.lang.String" value="Photo"/>
       </Properties>
     </Component>
   </SubComponents>

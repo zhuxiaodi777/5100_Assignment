@@ -19,6 +19,7 @@ public class MainJFrame extends javax.swing.JFrame {
     public MainJFrame() {
         userprofile = new UserProfile();
         initComponents();
+        
     }
 
     /**
@@ -112,6 +113,8 @@ public class MainJFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         ViewJPanel viewJpanel = new ViewJPanel(userprofile);
         splitPanel.setRightComponent(viewJpanel);
+        
+        
     }//GEN-LAST:event_jViewButtonActionPerformed
 
     /**

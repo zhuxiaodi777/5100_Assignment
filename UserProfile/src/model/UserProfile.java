@@ -4,6 +4,9 @@
  */
 package model;
 
+import javax.swing.JFileChooser;
+import javax.swing.filechooser.FileNameExtensionFilter;
+
 /**
  *
  * @author judy
@@ -14,6 +17,15 @@ public class UserProfile {
     private String last_name;
     private String age;
     private String dob;
+
+    public String getFname() {
+        return fname;
+    }
+
+    public void setFname(String fname) {
+        this.fname = fname;
+    }
+    private String fname;
 
     public String getNo() {
         return no;
@@ -165,7 +177,9 @@ public class UserProfile {
     private String d2;
     private String d2s;
     private String d2e;
+    
 
+    
     public String getDob() {
         return dob;
     }
@@ -199,5 +213,13 @@ public class UserProfile {
         this.age = age;
     }
 
+    private static class image {
+
+        public image() {
+        }
+    }
+    
+
+    
     
 }
