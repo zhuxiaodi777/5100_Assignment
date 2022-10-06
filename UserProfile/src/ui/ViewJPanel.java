@@ -289,7 +289,7 @@ public class ViewJPanel extends javax.swing.JPanel {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(59, 59, 59)
+                .addGap(60, 60, 60)
                 .addComponent(jLabel1)
                 .addGap(29, 29, 29)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -381,7 +381,7 @@ public class ViewJPanel extends javax.swing.JPanel {
                                         .addComponent(jLabel17))
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                     .addComponent(v_country, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))))
-                .addContainerGap(181, Short.MAX_VALUE))
+                .addContainerGap(180, Short.MAX_VALUE))
         );
 
         layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jLabel10, jLabel19, jLabel2, jLabel20, jLabel3, jLabel4, jLabel5, jLabel7, jLabel8, jLabel9, v_age_TextField3, v_city, v_country, v_dob_TextField4, v_email, v_firstname_TextField1, v_lastname_TextField2, v_no, v_st1, v_st2});
@@ -433,7 +433,7 @@ public class ViewJPanel extends javax.swing.JPanel {
 
     private void v_photoAncestorAdded(javax.swing.event.AncestorEvent evt) {//GEN-FIRST:event_v_photoAncestorAdded
         // TODO add your handling code here:
-        Image getAbsolutePath = null;
+
         ImageIcon icon = new ImageIcon(userprofile.getFname());
         Image image = icon.getImage();
         v_photo.setIcon(icon);

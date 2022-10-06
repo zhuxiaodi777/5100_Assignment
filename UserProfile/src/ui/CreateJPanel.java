@@ -469,6 +469,7 @@ public class CreateJPanel extends javax.swing.JPanel {
 //        } else if (returnVal == JFileChooser.CANCEL_OPTION) {
 //            System.out.println("You chose cancel");
 //        }
+//        Image getAbsolutePath = null;
         File f = chooser.getSelectedFile();
         String filename = f.getAbsolutePath();
         txt_filename.setText(filename);

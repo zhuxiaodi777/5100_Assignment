@@ -17,6 +17,7 @@ public class UserProfile {
     private String last_name;
     private String age;
     private String dob;
+    private String fname;
 
     public String getFname() {
         return fname;
@@ -25,7 +26,7 @@ public class UserProfile {
     public void setFname(String fname) {
         this.fname = fname;
     }
-    private String fname;
+    
 
     public String getNo() {
         return no;
@@ -213,11 +214,6 @@ public class UserProfile {
         this.age = age;
     }
 
-    private static class image {
-
-        public image() {
-        }
-    }
     
 
     
