@@ -370,6 +370,24 @@ public class ViewJPanel extends javax.swing.JPanel {
 
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
         // TODO add your handling code here:
+        if (
+                txtEmployeeId.getText().length() == 0
+                || txtName.getText().length() == 0 
+//                || txtAge.getText().length() == 0 
+                || txtAge.getText().matches("^\\d{1,}$") == false 
+                || txtGender.getText().length() == 0
+                || txtStartDate.getText().length() == 0
+                || txtLevel.getText().length() == 0
+                || txtTeamInfo.getText().length() == 0 
+                || txtPositionTitle.getText().length() == 0
+                || txtCellPhoneNumber.getText().matches("^\\d{2,}$") == false 
+                || txtEmailAddress.getText().length() == 0
+                || txtPhoto.getText().length() == 0
+                ) {
+                    JOptionPane.showMessageDialog(this, "Please enter the correct format");
+                    return;
+                }
+        
         DefaultTableModel model=(DefaultTableModel)tblEmployee.getModel();
         int row=tblEmployee.getSelectedRow();
         model.setValueAt(txtName.getText(), row, 0);

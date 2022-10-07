@@ -111,26 +111,6 @@ public class CreateJPanel extends javax.swing.JPanel {
                 .addGap(166, 166, 166)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(lblName)
-                        .addGap(452, 452, 452))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(lblEmployeeId)
-                            .addComponent(lblGender)
-                            .addComponent(lblAge)
-                            .addComponent(lblStartDate)
-                            .addComponent(lblLevel)
-                            .addComponent(lblTeamInfo)
-                            .addComponent(lblPositionTitle)
-                            .addComponent(lblEmailAddress)
-                            .addComponent(lblCellPhoneNumber)
-                            .addComponent(lblPhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(105, 105, 105)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btnSave, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnPhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap())
-                    .addGroup(layout.createSequentialGroup()
                         .addGap(281, 281, 281)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
@@ -148,7 +128,27 @@ public class CreateJPanel extends javax.swing.JPanel {
                                     .addComponent(txtTeamInfo)
                                     .addComponent(txtCellPhoneNumber)
                                     .addComponent(txtEmailAddress))
-                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))))
+                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblName)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lblEmployeeId)
+                                    .addComponent(lblGender)
+                                    .addComponent(lblAge)
+                                    .addComponent(lblStartDate)
+                                    .addComponent(lblLevel)
+                                    .addComponent(lblTeamInfo)
+                                    .addComponent(lblPositionTitle)
+                                    .addComponent(lblEmailAddress)
+                                    .addComponent(lblCellPhoneNumber)
+                                    .addComponent(lblPhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(105, 105, 105)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(btnSave, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(btnPhoto, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addContainerGap())))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -216,6 +216,24 @@ public class CreateJPanel extends javax.swing.JPanel {
     private void btnSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSaveActionPerformed
         // TODO add your handling code here:
 //        double temperature = Double.parseDouble(txtName.getText());
+
+        if (
+                txtEmployeeId.getText().length() == 0
+                || txtName.getText().length() == 0 
+//                || txtAge.getText().length() == 0 
+                || txtAge.getText().matches("^\\d{1,}$") == false 
+                || txtGender.getText().length() == 0
+                || txtStartDate.getText().length() == 0
+                || txtLevel.getText().length() == 0
+                || txtTeamInfo.getText().length() == 0 
+                || txtPositionTitle.getText().length() == 0
+                || txtCellPhoneNumber.getText().matches("^\\d{2,}$") == false 
+                || txtEmailAddress.getText().length() == 0
+                || txtPhoto.getText().length() == 0
+                ) {
+                    JOptionPane.showMessageDialog(this, "Please enter the correct format");
+                    return;
+                }
         String name = txtName.getText();
         String employeeId = txtEmployeeId.getText();
         String age = txtAge.getText();
@@ -257,7 +275,9 @@ public class CreateJPanel extends javax.swing.JPanel {
         txtCellPhoneNumber.setText("");
         txtEmailAddress.setText("");
         txtPhoto.setText("");
-
+        
+        
+            
     }//GEN-LAST:event_btnSaveActionPerformed
 
     private void btnPhotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPhotoActionPerformed

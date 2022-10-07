@@ -21,30 +21,6 @@
               <EmptySpace min="166" pref="166" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <Component id="lblName" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="452" pref="452" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="lblEmployeeId" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblGender" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblAge" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblStartDate" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblLevel" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblTeamInfo" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblPositionTitle" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblEmailAddress" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblCellPhoneNumber" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="lblPhoto" min="-2" pref="180" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btnSave" alignment="0" min="-2" pref="140" max="-2" attributes="0"/>
-                          <Component id="btnPhoto" alignment="0" min="-2" pref="140" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" attributes="0">
                       <EmptySpace min="281" pref="281" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
@@ -67,6 +43,31 @@
                               <EmptySpace max="32767" attributes="0"/>
                           </Group>
                       </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblName" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblEmployeeId" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblGender" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblAge" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblStartDate" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblLevel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblTeamInfo" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPositionTitle" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblEmailAddress" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblCellPhoneNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblPhoto" min="-2" pref="180" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="105" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="btnSave" alignment="0" min="-2" pref="140" max="-2" attributes="0"/>
+                                  <Component id="btnPhoto" alignment="0" min="-2" pref="140" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
           </Group>
