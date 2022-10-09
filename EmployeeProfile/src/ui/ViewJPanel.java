@@ -402,6 +402,7 @@ public class ViewJPanel extends javax.swing.JPanel {
         model.setValueAt(txtEmailAddress.getText(), row, 9);
         model.setValueAt(txtPhoto.getText(), row, 10);
         
+        
         txtName.setText("");
         txtEmployeeId.setText("");
         txtAge.setText("");
